@@ -1,0 +1,27 @@
+0. https://github.com/kluedemann/cmput404-lab7
+
+1. Flask is more lightweight, as it contains less overhead code.
+Django provides boilerplate code to handle URLs, project settings, models, and more.
+In Flask, you need to manage these yourself.
+
+2. REST stands for Representational State Transfer
+Restful means that the communication is object-focused.
+
+3. CRUD stands for create, read, update, delete. These correspond to the 
+PUT, GET, POST, and DELETE HTTP methods respectively.
+Source: https://www.sumologic.com/glossary/crud/
+
+4. The HTTP 1XX status codes are informational.
+The 2XX status codes are for successful operations.
+3XX are for redirection, 4XX are for client errors, and 5XX are for server errors.
+
+5. XSS stands for cross-site scripting. An XSS attack is when someone attempts to 
+inject code into a website so that it will be executed when other users open the site.
+A website can be vulnerable if it converts user input directly to HTML without
+sanitizing it first.
+Source: https://www.acunetix.com/websitesecurity/cross-site-scripting/
+
+6. CORS stands for cross-origin resource sharing.
+Implementing CORS protection is important whenever your site accesses
+resources from another site. 
+https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
