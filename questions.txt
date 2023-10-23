@@ -4,8 +4,11 @@
 Django provides boilerplate code to handle URLs, project settings, models, and more.
 In Flask, you need to manage these yourself.
 
-2. REST stands for Representational State Transfer
-Restful means that the communication is object-focused.
+2. REST stands for Representational State Transfer.
+Restful APIs conform to the rest architecture.
+This means that they are client-server based, stateless, cacheable, layered, 
+and provide a uniform interface. 
+Communication is focused on objects, and the server does not store the client state.
 
 3. CRUD stands for create, read, update, delete. These correspond to the 
 PUT, GET, POST, and DELETE HTTP methods respectively.
@@ -24,4 +27,4 @@ Source: https://www.acunetix.com/websitesecurity/cross-site-scripting/
 6. CORS stands for cross-origin resource sharing.
 Implementing CORS protection is important whenever your site accesses
 resources from another site. 
-https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
+Source: https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
